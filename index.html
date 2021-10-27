@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My portfolio as an exercise for learning HTML and CSS">
+    <meta name="author" content="Elena China-Kolehmainen">
+    <meta name="keywords" content="HTML, portfolio, Elena China-Kolehmainen">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/fav.svg"/>
+    <title>My portfolio</title>
+</head>
+<body>
+    <header class="main_page_header">
+            <div class="logo_and_nav">
+                <div class="logo">
+                    <img src="assets/Vector.svg" id="Elena-logo" alt="logo of Elena China-Kolehmainen">
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-times" id="hiddenIcon"></i>
+                </div>
+                <nav class="topnav">
+                    <ul id="nav_list">
+                        <li><a href="#index.html">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="/gallery.html">Gallery</a></li>
+                        <li><a href="#contact_me">Contact me</a></li>
+                        <li><a href="https://www.bc.fi" target="_blank">More about BCH</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero-banner">
+                <h1>Welcome to my Portfolio</h1>
+            </div>
+    </header>
+    <main>
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to top</button>
+        <section>
+             <!-- trick to prevent scrolling to relative links going too low -->
+            <div id="projects" class="anchor"></div>
+            <h2>Projects</h2>
+            <div class="projects_boxes">
+                <div class="card">
+                    <img class="kuvituskuva" src="assets/walling-e_MdMMKrgdY-unsplash.jpg" alt="tiles">
+                    <div class="container">
+                        <h3>Full Stack Web Developer</h3>
+                        <p>I'm enrolled at Business College Helsinki. Excited to be on my way to become a web developer. In the first weeks I've been getting to know JavaScript, HTML and CSS. And many new interesting fellow coders.</p>
+                        <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank" class="read-more">Read more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="kuvituskuva" src="assets/kira-laktionov-9CGZMuXjlME-unsplash.jpg" alt="tiles">
+                    <div class="container">
+                        <h3>Learning to play the piano</h3>
+                        <p>I got a piano few months ago and I'm finally making a dream come true, learning how to play, thanks to a very clever and fun app, SimplyPiano. When I sit at the piano, time speeds up. Or stops, which is maybe the same. </p>
+                        <a href="https://www.joytunes.com/" class="read-more" target="_blank">Read more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="kuvituskuva" src="assets/ren-ran-bBiuSdck8tU-unsplash.jpg" alt="green plants">
+                    <div class="container">
+                        <h3>Grow a garden at home</h3>
+                        <p>I like plants, trees, leaves and flowers. Because in Finland the winter is cold, I have to take in all my plants from the balcony. My home is slowly tranforming into a jungle. I'm particularly proud of having kept alive a Bougainvillea for more than one year.</p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+        <!-- trick to prevent scrolling to relative links going too low -->
+        <div id="about" class="anchor"></div>
+        <div class="about">
+            <h2>About me</h2>
+            <div class="polaroid">
+                <img src="assets/elena.jpeg" alt="Elena smiling and pink flowers in the background">
+            </div>
+            <p class="paragraph1">I'm a crazy cat lady. I grew up in Italy, among a cat herd next to the rice fields of Milano. For long into adulthood I meowed better than I spoke human. Then I got into linguistics and eventually into language technology, a fascinating area of intersection between natural and artificial languages. I'm now learning web development and dreaming of building an app to support bilingual acquisition in children.</p>
+            <p class="paragraph2">I live in Helsinki and I enjoy the Finnish cottage life. I'd like to travel more often to my other home country, Italy, and explore its beautiful places.
+            
+            </p>
+        </div>
+        </section>
+        <section>
+             <!-- trick to prevent scrolling to relative links going too low -->
+            <div id="skills" class="anchor"></div>
+            <h2>Skills</h2>
+            <div class="box-container">
+                <div class="box">
+                    <div class="material-icons">pets</div>
+                    <h4>CATS</h4>
+                    <progress class="bar" value="94" max="100"></progress>
+                </div>
+                <div class="box">
+                    <div class="material-icons">park</div>
+                    <h4>GARDENING</h4>
+                    <progress class="bar" value="50" max="100"></progress>
+                </div>
+                <div class="box">
+                    <div class="material-icons">piano</div>
+                    <h4>PIANO</h4>
+                    <progress class="bar" value="13" max="100"></progress>
+                </div>
+                <div class="box">
+                    <div class="material-icons">extension</div>
+                    <h4>PUZZLE SOLVING</h4>
+                    <progress class="bar" value="15" max="100"></progress>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- trick to prevent scrolling to relative links going too low -->
+        <div id="contact_me" class="anchor"></div>
+        <h3>Contact me</h3>
+        <form>
+            <div class="label_input">
+                <label for="your_name">Your firstname</label>
+                <input type="text" id="your_name"/>
+            </div>
+            <div class="label_input">
+                <label for="your_surname">Your lastname</label>
+                <input type="text" id="your_surname"/>
+            </div>
+            <div class="label_input">
+                <label for="email">Your email</label>
+                <input type="email" id="email"/>
+            </div>
+            <div class="label_input">
+                <label for="message">Message to me</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <input type="submit" value="send message" />
+        </form>
+        <div class="social">
+            <a href="https://github.com/ElaFinIta" target="_blank">
+                <img src="assets/github.svg">
+            </a>
+
+            <a href="https://www.linkedin.com/in/elena-china-kolehmainen-958673143/" target="_blank">
+                <img src="assets/linkedin.svg">
+            </a>
+
+            <a href="https://www.instagram.com/leggi_con_me/" target="_blank">
+                <img src="assets/instagram.svg"></a>
+        </div>
+        <p>Copyright © My website 2021</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
