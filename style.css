@@ -419,6 +419,13 @@ footer p {
     padding-bottom: 0;
 }
 
+@media only screen and (max-width: 828px){
+    /* does this fix safari/mobile> shows background pic? */
+    .main_page_header{
+        max-height: 32rem;
+        max-width: 828px;
+    }
+}
 
 @media only screen and (max-width: 768px){
     .logo_and_nav {
@@ -494,14 +501,7 @@ footer p {
     }
 }
 
-
 @media only screen and (max-width: 435px){
-    /* does this fix safari/mobile> shows background pic? */
-    .main_page_header{
-        max-height: 16rem;
-        max-width: 1400px;
-    }
-
     h1 {
         font-size: 3rem;
     }
