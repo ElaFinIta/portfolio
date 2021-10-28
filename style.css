@@ -244,6 +244,10 @@ figure {
     flex-direction: column;
 }
 
+.card img {
+    max-height: 20rem;
+}
+
 .container {
     margin-bottom: 10%;
 }
