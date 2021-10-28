@@ -8,6 +8,7 @@
     --font-plain: 'Lato', sans-serif;
     --font-special: 'Staatliches', cursive;
     --dark-green-trees: rgb(18 59 49);
+    --lighter-green-trees: rgb(91 131 122);
     --main-bg-sky: rgb(230 231 234);
     --banner-light: honeydew;
     --banner-darker: rgb(144, 201, 144);
@@ -342,6 +343,11 @@ progress[value] {
 }
 
 
+progress[value]::-webkit-progress-bar {
+    background-color: var(--lighter-green-trees);
+    border-radius: 2px;
+}
+
 progress[value]::-webkit-progress-value {
     background: var(--dark-green-trees);
     border-radius: 2px;
@@ -490,6 +496,12 @@ footer p {
 
 
 @media only screen and (max-width: 435px){
+    /* does this fix safari/mobile> shows background pic? */
+    .main_page_header{
+        height: 32rem;
+        max-width: 1400px;
+    }
+
     h1 {
         font-size: 3rem;
     }
