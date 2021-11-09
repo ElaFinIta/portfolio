@@ -1,12 +1,17 @@
 # A portfolio project to practice HTML, CSS and JS.
 
-![portfolio in HTML, CSS and JavaScript](assets/landing.png "Elena's portfolio")
+![portfolio in HTML, CSS and JavaScript](screenshots/landing.png "Elena's portfolio")
 
 
-![portfolio in HTML, CSS and JavaScript](assets/projects.png "Elena's portfolio")
+<p align="center">
+    <img src="screenshots/projects.png?raw=true" alt="portfolio"/>
+</p>
 
 
-![portfolio in HTML, CSS and JavaScript](assets/contact.png "Elena's portfolio")
+<p align="center">
+    <img src="screenshots/contact.png?raw=true" alt="contatc form"/>
+</p>
+
 ### Credits
 - Background photo by <a href="https://unsplash.com/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Bravo</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
